@@ -1,0 +1,20 @@
+{
+    "name": "pzn/php-composer",
+    "description": "belajar tutorial php composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pzn\\PhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Irwan",
+            "email": "irwan.codeir@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "2.2.0",
+        "php": ">=8.0"
+    }
+}
